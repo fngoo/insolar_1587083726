@@ -1,280 +1,0 @@
-travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: 5523fdfd-5e9b-4059-9b83-a9bd91b0fd06@1.worker-org-95567d544-cjj55.gce-production-3
-version: v6.2.1 https://github.com/travis-ci/worker/tree/4e3246c044eb4915c2378ffacd0b3d3ed0136bba
-instance: travis-job-def45d22-9e5c-409d-83ee-571722cb93f5 travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
-startup: 7.116860577s
-travis_fold:end:worker_info[0Ktravis_time:start:1dab1731[0Ktravis_time:end:1dab1731:start=1572293213777706708,finish=1572293213969805364,duration=192098656,event=no_world_writable_dirs[0Ktravis_time:start:0d3d0add[0Ktravis_time:end:0d3d0add:start=1572293213974651738,finish=1572293213985628219,duration=10976481,event=agent[0Ktravis_time:start:122b1610[0Ktravis_time:end:122b1610:start=1572293213989501100,finish=1572293213992685692,duration=3184592,event=check_unsupported[0Ktravis_time:start:00787b88[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
-Build language: go
-Build group: stable
-Build dist: xenial
-Build id: 604102209
-Job id: 604102211
-Runtime kernel version: 4.15.0-1028-gcp
-travis-build version: a91ac50bd
-[34m[1mBuild image provisioning date and time[0m
-Mon Mar 25 16:43:24 UTC 2019
-[34m[1mOperating System Details[0m
-Distributor ID:	Ubuntu
-Description:	Ubuntu 16.04.6 LTS
-Release:	16.04
-Codename:	xenial
-[34m[1mSystemd Version[0m
-systemd 229
-[34m[1mCookbooks Version[0m
-42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
-[34m[1mgit version[0m
-git version 2.21.0
-[34m[1mbash version[0m
-GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
-[34m[1mgcc version[0m
-gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
-[34m[1mdocker version[0m
-Client:
- Version:           18.06.0-ce
- API version:       1.38
- Go version:        go1.10.3
- Git commit:        0ffa825
- Built:             Wed Jul 18 19:11:02 2018
- OS/Arch:           linux/amd64
- Experimental:      false
-
-Server:
- Engine:
-  Version:          18.06.0-ce
-  API version:      1.38 (minimum version 1.12)
-  Go version:       go1.10.3
-  Git commit:       0ffa825
-  Built:            Wed Jul 18 19:09:05 2018
-  OS/Arch:          linux/amd64
-  Experimental:     false
-[34m[1mclang version[0m
-clang version 7.0.0 (tags/RELEASE_700/final)
-[34m[1mjq version[0m
-jq-1.5
-[34m[1mbats version[0m
-Bats 0.4.0
-[34m[1mshellcheck version[0m
-0.6.0
-[34m[1mshfmt version[0m
-v2.6.3
-[34m[1mccache version[0m
-3.2.4
-[34m[1mcmake version[0m
-cmake version 3.12.4
-[34m[1mheroku version[0m
-heroku/7.22.7 linux-x64 node-v11.10.1
-[34m[1mimagemagick version[0m
-Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
-[34m[1mmd5deep version[0m
-4.4
-[34m[1mmercurial version[0m
-version 4.8
-[34m[1mmysql version[0m
-mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
-[34m[1mopenssl version[0m
-OpenSSL 1.0.2g  1 Mar 2016
-[34m[1mpacker version[0m
-1.3.3
-[34m[1mpostgresql client version[0m
-psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
-[34m[1mragel version[0m
-Ragel State Machine Compiler version 6.8 Feb 2013
-[34m[1msudo version[0m
-1.8.16
-[34m[1mgzip version[0m
-gzip 1.6
-[34m[1mzip version[0m
-Zip 3.0
-[34m[1mvim version[0m
-VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
-[34m[1miptables version[0m
-iptables v1.6.0
-[34m[1mcurl version[0m
-curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
-[34m[1mwget version[0m
-GNU Wget 1.17.1 built on linux-gnu.
-[34m[1mrsync version[0m
-rsync  version 3.1.1  protocol version 31
-[34m[1mgimme version[0m
-v1.5.3
-[34m[1mnvm version[0m
-0.34.0
-[34m[1mperlbrew version[0m
-/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
-[34m[1mphpenv version[0m
-rbenv 1.1.2
-[34m[1mrvm version[0m
-rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
-[34m[1mdefault ruby version[0m
-ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
-[34m[1mCouchDB version[0m
-couchdb 1.6.1
-[34m[1mElasticSearch version[0m
-5.5.0
-[34m[1mInstalled Firefox version[0m
-firefox 63.0.1
-[34m[1mMongoDB version[0m
-MongoDB 4.0.7
-[34m[1mPhantomJS version[0m
-2.1.1
-[34m[1mPre-installed PostgreSQL versions[0m
-9.4.21
-9.5.16
-9.6.12
-[34m[1mRedis version[0m
-redis-server 5.0.4
-[34m[1mPre-installed Go versions[0m
-1.11.1
-[34m[1mmvn version[0m
-Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
-[34m[1mgradle version[0m
-Gradle 4.10.2!
-[34m[1mlein version[0m
-Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
-[34m[1mPre-installed Node.js versions[0m
-v10.15.3
-v11.0.0
-v4.9.1
-v6.17.0
-v8.12.0
-v8.15.1
-v8.9
-[34m[1mphpenv versions[0m
-  system
-  5.6
-  5.6.40
-  7.1
-  7.1.27
-  7.2
-* 7.2.15 (set by /home/travis/.phpenv/version)
-  hhvm
-  hhvm-stable
-[34m[1mcomposer --version[0m
-Composer version 1.8.4 2019-02-11 10:52:10
-[34m[1mPre-installed Ruby versions[0m
-ruby-2.3.8
-ruby-2.4.5
-ruby-2.5.3
-travis_fold:end:system_info[0K
-travis_time:end:00787b88:start=1572293213996579033,finish=1572293214006615844,duration=10036811,event=show_system_info[0Ktravis_time:start:05175364[0Ktravis_time:end:05175364:start=1572293214010457086,finish=1572293214027587952,duration=17130866,event=rm_riak_source[0Ktravis_time:start:117bda32[0Ktravis_time:end:117bda32:start=1572293214031729027,finish=1572293214039073830,duration=7344803,event=fix_rwky_redis[0Ktravis_time:start:018d6f40[0Ktravis_time:end:018d6f40:start=1572293214044225024,finish=1572293214430104739,duration=385879715,event=wait_for_network[0Ktravis_time:start:064a203c[0Ktravis_time:end:064a203c:start=1572293214433822448,finish=1572293214700597020,duration=266774572,event=update_apt_keys[0Ktravis_time:start:045445b0[0Ktravis_time:end:045445b0:start=1572293214704581851,finish=1572293214769754142,duration=65172291,event=fix_hhvm_source[0Ktravis_time:start:0a93ed36[0Ktravis_time:end:0a93ed36:start=1572293214773747434,finish=1572293214776866360,duration=3118926,event=update_mongo_arch[0Ktravis_time:start:30ceb5a0[0Ktravis_time:end:30ceb5a0:start=1572293214780451640,finish=1572293214830681624,duration=50229984,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0b528eae[0Ktravis_time:end:0b528eae:start=1572293214834365147,finish=1572293214837044968,duration=2679821,event=update_glibc[0Ktravis_time:start:2ddcf18f[0Ktravis_time:end:2ddcf18f:start=1572293214840515362,finish=1572293214850226393,duration=9711031,event=clean_up_path[0Ktravis_time:start:2d56f6dc[0Ktravis_time:end:2d56f6dc:start=1572293214853681173,finish=1572293214863344315,duration=9663142,event=fix_resolv_conf[0Ktravis_time:start:1e1607f4[0Ktravis_time:end:1e1607f4:start=1572293214867221659,finish=1572293214878625197,duration=11403538,event=fix_etc_hosts[0Ktravis_time:start:19841e66[0Ktravis_time:end:19841e66:start=1572293214882234032,finish=1572293214893279838,duration=11045806,event=fix_mvn_settings_xml[0Ktravis_time:start:0ecd7350[0Ktravis_time:end:0ecd7350:start=1572293214897214914,finish=1572293214909421497,duration=12206583,event=no_ipv6_localhost[0Ktravis_time:start:09e7db04[0Ktravis_time:end:09e7db04:start=1572293214913439324,finish=1572293214916509503,duration=3070179,event=fix_etc_mavenrc[0Ktravis_time:start:0788b900[0Ktravis_time:end:0788b900:start=1572293214920431971,finish=1572293214924413773,duration=3981802,event=fix_wwdr_certificate[0Ktravis_time:start:085257a8[0Ktravis_time:end:085257a8:start=1572293214928159076,finish=1572293214959459048,duration=31299972,event=put_localhost_first[0Ktravis_time:start:049da9b4[0Ktravis_time:end:049da9b4:start=1572293214963720143,finish=1572293214968188027,duration=4467884,event=home_paths[0Ktravis_time:start:18e10cae[0Ktravis_time:end:18e10cae:start=1572293214972437502,finish=1572293214988820797,duration=16383295,event=disable_initramfs[0Ktravis_time:start:12470af6[0Ktravis_time:end:12470af6:start=1572293214992753883,finish=1572293215407267796,duration=414513913,event=disable_ssh_roaming[0Ktravis_time:start:0017745f[0Ktravis_time:end:0017745f:start=1572293215411254664,finish=1572293215414352710,duration=3098046,event=debug_tools[0Ktravis_time:start:34b71d74[0Ktravis_time:end:34b71d74:start=1572293215418245693,finish=1572293215422113028,duration=3867335,event=uninstall_oclint[0Ktravis_time:start:0a8cd4a0[0Ktravis_time:end:0a8cd4a0:start=1572293215426022021,finish=1572293215429911246,duration=3889225,event=rvm_use[0Ktravis_time:start:1f6f5e5e[0Ktravis_time:end:1f6f5e5e:start=1572293215433842621,finish=1572293215444135289,duration=10292668,event=rm_etc_boto_cfg[0Ktravis_time:start:00b475b4[0Ktravis_time:end:00b475b4:start=1572293215448172452,finish=1572293215451676448,duration=3503996,event=rm_oraclejdk8_symlink[0Ktravis_time:start:24759ebd[0Ktravis_time:end:24759ebd:start=1572293215455789824,finish=1572293215588585928,duration=132796104,event=enable_i386[0Ktravis_time:start:1c09ec12[0Ktravis_time:end:1c09ec12:start=1572293215592644440,finish=1572293215600026797,duration=7382357,event=update_rubygems[0Ktravis_time:start:084a9980[0Ktravis_time:end:084a9980:start=1572293215603958472,finish=1572293216603092313,duration=999133841,event=ensure_path_components[0Ktravis_time:start:14f80d9c[0Ktravis_time:end:14f80d9c:start=1572293216607274981,finish=1572293216610474904,duration=3199923,event=redefine_curl[0Ktravis_time:start:1ef1396b[0Ktravis_time:end:1ef1396b:start=1572293216614287900,finish=1572293216617262516,duration=2974616,event=nonblock_pipe[0Ktravis_time:start:1442781f[0Ktravis_time:end:1442781f:start=1572293216621141940,finish=1572293219680607783,duration=3059465843,event=apt_get_update[0Ktravis_time:start:015c24c0[0Ktravis_time:end:015c24c0:start=1572293219684802593,finish=1572293219687755467,duration=2952874,event=deprecate_xcode_64[0Ktravis_time:start:0282b3a0[0Ktravis_time:end:0282b3a0:start=1572293219691750258,finish=1572293222588360197,duration=2896609939,event=update_heroku[0Ktravis_time:start:01c4ef63[0Ktravis_time:end:01c4ef63:start=1572293222592319617,finish=1572293222595054384,duration=2734767,event=shell_session_update[0Ktravis_time:start:033a0760[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:033a0760:start=1572293222598914413,finish=1572293225050083653,duration=2451169240,event=set_docker_mtu[0Ktravis_time:start:0cf51119[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:0cf51119:start=1572293225053984047,finish=1572293225130895630,duration=76911583,event=resolvconf[0Ktravis_time:start:0463b270[0Ktravis_time:end:0463b270:start=1572293225138787610,finish=1572293225314782760,duration=175995150,event=maven_central_mirror[0Ktravis_time:start:0564e1dc[0Ktravis_time:end:0564e1dc:start=1572293225319659803,finish=1572293225322716885,duration=3057082,event=fix_ps4[0KUpdating gimme
-travis_time:start:121f2e06[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:10bf1992[0K$ git clone --depth=50 --branch=master https://github.com/insolar/component-manager.git insolar/component-manager
-Cloning into 'insolar/component-manager'...
-remote: Enumerating objects: 13, done.[K
-remote: Counting objects:   7% (1/13)[Kremote: Counting objects:  15% (2/13)[Kremote: Counting objects:  23% (3/13)[Kremote: Counting objects:  30% (4/13)[Kremote: Counting objects:  38% (5/13)[Kremote: Counting objects:  46% (6/13)[Kremote: Counting objects:  53% (7/13)[Kremote: Counting objects:  61% (8/13)[Kremote: Counting objects:  69% (9/13)[Kremote: Counting objects:  76% (10/13)[Kremote: Counting objects:  84% (11/13)[Kremote: Counting objects:  92% (12/13)[Kremote: Counting objects: 100% (13/13)[Kremote: Counting objects: 100% (13/13), done.[K
-remote: Compressing objects:   9% (1/11)[Kremote: Compressing objects:  18% (2/11)[Kremote: Compressing objects:  27% (3/11)[Kremote: Compressing objects:  36% (4/11)[Kremote: Compressing objects:  45% (5/11)[Kremote: Compressing objects:  54% (6/11)[Kremote: Compressing objects:  63% (7/11)[Kremote: Compressing objects:  72% (8/11)[Kremote: Compressing objects:  81% (9/11)[Kremote: Compressing objects:  90% (10/11)[Kremote: Compressing objects: 100% (11/11)[Kremote: Compressing objects: 100% (11/11), done.[K
-Receiving objects:   0% (1/161)   Receiving objects:   1% (2/161)   Receiving objects:   2% (4/161)   Receiving objects:   3% (5/161)   Receiving objects:   4% (7/161)   Receiving objects:   5% (9/161)   Receiving objects:   6% (10/161)   Receiving objects:   7% (12/161)   Receiving objects:   8% (13/161)   Receiving objects:   9% (15/161)   Receiving objects:  10% (17/161)   Receiving objects:  11% (18/161)   Receiving objects:  12% (20/161)   Receiving objects:  13% (21/161)   Receiving objects:  14% (23/161)   Receiving objects:  15% (25/161)   Receiving objects:  16% (26/161)   Receiving objects:  17% (28/161)   Receiving objects:  18% (29/161)   Receiving objects:  19% (31/161)   Receiving objects:  20% (33/161)   Receiving objects:  21% (34/161)   Receiving objects:  22% (36/161)   Receiving objects:  23% (38/161)   Receiving objects:  24% (39/161)   Receiving objects:  25% (41/161)   Receiving objects:  26% (42/161)   Receiving objects:  27% (44/161)   Receiving objects:  28% (46/161)   Receiving objects:  29% (47/161)   Receiving objects:  30% (49/161)   Receiving objects:  31% (50/161)   Receiving objects:  32% (52/161)   Receiving objects:  33% (54/161)   Receiving objects:  34% (55/161)   Receiving objects:  35% (57/161)   Receiving objects:  36% (58/161)   Receiving objects:  37% (60/161)   remote: Total 161 (delta 6), reused 4 (delta 2), pack-reused 148[K
-Receiving objects:  38% (62/161)   Receiving objects:  39% (63/161)   Receiving objects:  40% (65/161)   Receiving objects:  41% (67/161)   Receiving objects:  42% (68/161)   Receiving objects:  43% (70/161)   Receiving objects:  44% (71/161)   Receiving objects:  45% (73/161)   Receiving objects:  46% (75/161)   Receiving objects:  47% (76/161)   Receiving objects:  48% (78/161)   Receiving objects:  49% (79/161)   Receiving objects:  50% (81/161)   Receiving objects:  51% (83/161)   Receiving objects:  52% (84/161)   Receiving objects:  53% (86/161)   Receiving objects:  54% (87/161)   Receiving objects:  55% (89/161)   Receiving objects:  56% (91/161)   Receiving objects:  57% (92/161)   Receiving objects:  58% (94/161)   Receiving objects:  59% (95/161)   Receiving objects:  60% (97/161)   Receiving objects:  61% (99/161)   Receiving objects:  62% (100/161)   Receiving objects:  63% (102/161)   Receiving objects:  64% (104/161)   Receiving objects:  65% (105/161)   Receiving objects:  66% (107/161)   Receiving objects:  67% (108/161)   Receiving objects:  68% (110/161)   Receiving objects:  69% (112/161)   Receiving objects:  70% (113/161)   Receiving objects:  71% (115/161)   Receiving objects:  72% (116/161)   Receiving objects:  73% (118/161)   Receiving objects:  74% (120/161)   Receiving objects:  75% (121/161)   Receiving objects:  76% (123/161)   Receiving objects:  77% (124/161)   Receiving objects:  78% (126/161)   Receiving objects:  79% (128/161)   Receiving objects:  80% (129/161)   Receiving objects:  81% (131/161)   Receiving objects:  82% (133/161)   Receiving objects:  83% (134/161)   Receiving objects:  84% (136/161)   Receiving objects:  85% (137/161)   Receiving objects:  86% (139/161)   Receiving objects:  87% (141/161)   Receiving objects:  88% (142/161)   Receiving objects:  89% (144/161)   Receiving objects:  90% (145/161)   Receiving objects:  91% (147/161)   Receiving objects:  92% (149/161)   Receiving objects:  93% (150/161)   Receiving objects:  94% (152/161)   Receiving objects:  95% (153/161)   Receiving objects:  96% (155/161)   Receiving objects:  97% (157/161)   Receiving objects:  98% (158/161)   Receiving objects:  99% (160/161)   Receiving objects: 100% (161/161)   Receiving objects: 100% (161/161), 33.04 KiB | 2.36 MiB/s, done.
-Resolving deltas:   0% (0/96)   Resolving deltas:  20% (20/96)   Resolving deltas:  21% (21/96)   Resolving deltas:  23% (23/96)   Resolving deltas:  39% (38/96)   Resolving deltas:  53% (51/96)   Resolving deltas:  57% (55/96)   Resolving deltas:  91% (88/96)   Resolving deltas:  92% (89/96)   Resolving deltas:  93% (90/96)   Resolving deltas:  94% (91/96)   Resolving deltas:  97% (94/96)   Resolving deltas: 100% (96/96)   Resolving deltas: 100% (96/96), done.
-travis_time:end:10bf1992:start=1572293230716197420,finish=1572293231474992333,duration=758794913,event=checkout[0K$ cd insolar/component-manager
-$ git checkout -qf 751a91771d2f8fba3ed5636a65a613fa7e07f91f
-travis_fold:end:git.checkout[0K
-travis_time:end:10bf1992:start=1572293230716197420,finish=1572293231482294950,duration=766097530,event=checkout[0K$ travis_export_go 1.12.x github.com/insolar/component-manager
-travis_time:start:028cd190[0K
-[33;1mSetting environment variables from .travis.yml[0m
-$ export CGO_ENABLED=0
-$ export GORACE="halt_on_error=1"
-$ export GO111MODULE=on
-
-travis_time:end:028cd190:start=1572293231489216869,finish=1572293231498401549,duration=9184680,event=env[0Ktravis_time:start:042e0b8e[0K$ travis_setup_go
-go version go1.12.12 linux/amd64
-$ export GOPATH="/home/travis/gopath"
-$ export PATH="/home/travis/gopath/bin:/home/travis/.gimme/versions/go1.12.12.linux.amd64/bin:/home/travis/bin:/home/travis/bin:/home/travis/.local/bin:/usr/local/lib/jvm/openjdk11/bin:/opt/pyenv/shims:/home/travis/.phpenv/shims:/home/travis/perl5/perlbrew/bin:/home/travis/.nvm/versions/node/v8.12.0/bin:/home/travis/.rvm/gems/ruby-2.5.3/bin:/home/travis/.rvm/gems/ruby-2.5.3@global/bin:/home/travis/.rvm/rubies/ruby-2.5.3/bin:/home/travis/gopath/bin:/home/travis/.gimme/versions/go1.11.1.linux.amd64/bin:/usr/local/maven-3.6.0/bin:/usr/local/cmake-3.12.4/bin:/usr/local/clang-7.0.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/home/travis/.rvm/bin:/home/travis/.phpenv/bin:/opt/pyenv/bin:/home/travis/.yarn/bin"
-$ export GO111MODULE="on"
-travis_time:end:042e0b8e:start=1572293231502544166,finish=1572293237941936223,duration=6439392057,event=[0K$ gimme version
-v1.5.3
-$ go version
-go version go1.12.12 linux/amd64
-travis_fold:start:go.env[0K$ go env
-GOARCH="amd64"
-GOBIN=""
-GOCACHE="/home/travis/.cache/go-build"
-GOEXE=""
-GOFLAGS=""
-GOHOSTARCH="amd64"
-GOHOSTOS="linux"
-GOOS="linux"
-GOPATH="/home/travis/gopath"
-GOPROXY=""
-GORACE="halt_on_error=1"
-GOROOT="/home/travis/.gimme/versions/go1.12.12.linux.amd64"
-GOTMPDIR=""
-GOTOOLDIR="/home/travis/.gimme/versions/go1.12.12.linux.amd64/pkg/tool/linux_amd64"
-GCCGO="gccgo"
-CC="gcc"
-CXX="g++"
-CGO_ENABLED="0"
-GOMOD="/home/travis/gopath/src/github.com/insolar/component-manager/go.mod"
-CGO_CFLAGS="-g -O2"
-CGO_CPPFLAGS=""
-CGO_CXXFLAGS="-g -O2"
-CGO_FFLAGS="-g -O2"
-CGO_LDFLAGS="-g -O2"
-PKG_CONFIG="pkg-config"
-GOGCCFLAGS="-fPIC -m64 -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build809483060=/tmp/go-build -gno-record-gcc-switches"
-travis_fold:end:go.env[0Ktravis_fold:start:install[0Ktravis_time:start:00f3bdce[0K$ true
-travis_time:end:00f3bdce:start=1572293239336599730,finish=1572293239339665771,duration=3066041,event=install[0Ktravis_fold:end:install[0Ktravis_time:start:04681bd8[0K$ CGO_ENABLED=1 go test --race --coverprofile=coverage.txt --covermode=atomic ./...
-go: finding github.com/pkg/errors v0.8.1
-go: finding github.com/stretchr/testify v1.3.0
-go: finding github.com/pmezard/go-difflib v1.0.0
-go: finding github.com/stretchr/objx v0.1.0
-go: finding github.com/davecgh/go-spew v1.1.0
-go: downloading github.com/pkg/errors v0.8.1
-go: downloading github.com/stretchr/testify v1.3.0
-go: extracting github.com/pkg/errors v0.8.1
-go: extracting github.com/stretchr/testify v1.3.0
-go: downloading github.com/pmezard/go-difflib v1.0.0
-go: downloading github.com/davecgh/go-spew v1.1.0
-go: extracting github.com/pmezard/go-difflib v1.0.0
-go: extracting github.com/davecgh/go-spew v1.1.0
-ok  	github.com/insolar/component-manager	1.013s	coverage: 80.2% of statements
-travis_time:end:04681bd8:start=1572293239344306783,finish=1572293266886209751,duration=27541902968,event=script[0K[32;1mThe command "CGO_ENABLED=1 go test --race --coverprofile=coverage.txt --covermode=atomic ./..." exited with 0.[0m
-
-travis_fold:start:after_success[0Ktravis_time:start:1191c411[0K$ bash <(curl -s https://codecov.io/bash)
-
-  _____          _
- / ____|        | |
-| |     ___   __| | ___  ___ _____   __
-| |    / _ \ / _` |/ _ \/ __/ _ \ \ / /
-| |___| (_) | (_| |  __/ (_| (_) \ V /
- \_____\___/ \__,_|\___|\___\___/ \_/
-                              Bash-8a28df4
-
-
-[0;90m==>[0m Travis CI detected.
-    [0;90mproject root:[0m .
-    [0;90mYaml found at:[0m .codecov.yml
-[0;90m==>[0m Running gcov in . [0;90m(disable via -X gcov)[0m
-[0;90m==>[0m Python coveragepy not found
-[0;90m==>[0m Searching for coverage reports in:
-    [0;32m+[0m .
-    [0;90m->[0m Found 1 reports
-[0;90m==>[0m Detecting git/mercurial file structure
-[0;90m==>[0m Appending build variables
-    [0;32m+[0m TRAVIS_OS_NAME
-    [0;32m+[0m TRAVIS_GO_VERSION
-[0;90m==>[0m Reading reports
-    [0;32m+[0m ./coverage.txt [0;90mbytes=3924[0m
-[0;90m==>[0m Appending adjustments
-    [0;36mhttp://docs.codecov.io/docs/fixing-reports[0m
-    [0;32m+[0m Found adjustments
-[0;90m==>[0m Gzipping contents
-[0;90m==>[0m Uploading reports
-    [0;90murl:[0m https://codecov.io
-    [0;90mquery:[0m branch=master&commit=751a91771d2f8fba3ed5636a65a613fa7e07f91f&build=35.2&build_url=&name=&tag=&slug=insolar%2Fcomponent-manager&service=travis&flags=&pr=false&job=604102211
-    [0;90m->[0m Pinging Codecov
-https://codecov.io/upload/v4?package=bash-8a28df4&token=secret&branch=master&commit=751a91771d2f8fba3ed5636a65a613fa7e07f91f&build=35.2&build_url=&name=&tag=&slug=insolar%2Fcomponent-manager&service=travis&flags=&pr=false&job=604102211
-    [0;90m->[0m Uploading
-    [0;31mX>[0m Failed to upload
-    [0;90m->[0m Sleeping for 30s and trying again...
-    [0;90m->[0m Pinging Codecov
-https://codecov.io/upload/v4?package=bash-8a28df4&token=secret&branch=master&commit=751a91771d2f8fba3ed5636a65a613fa7e07f91f&build=35.2&build_url=&name=&tag=&slug=insolar%2Fcomponent-manager&service=travis&flags=&pr=false&job=604102211
-    [0;90m->[0m Uploading
-    [0;31mX>[0m Failed to upload
-    [0;90m->[0m Sleeping for 30s and trying again...
-    [0;90m->[0m Pinging Codecov
-https://codecov.io/upload/v4?package=bash-8a28df4&token=secret&branch=master&commit=751a91771d2f8fba3ed5636a65a613fa7e07f91f&build=35.2&build_url=&name=&tag=&slug=insolar%2Fcomponent-manager&service=travis&flags=&pr=false&job=604102211
-    [0;90m->[0m Uploading
-    [0;32m->[0m View reports at [0;36mhttps://codecov.io/github/insolar/component-manager/commit/751a91771d2f8fba3ed5636a65a613fa7e07f91f[0m
-travis_time:end:1191c411:start=1572293266891245266,finish=1572293588746724784,duration=321855479518,event=after_success[0Ktravis_fold:end:after_success[0K
-Done. Your build exited with 0.
